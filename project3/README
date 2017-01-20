@@ -1,0 +1,16 @@
+Author: Adam Kniffin
+Date: 2/16/2016
+Description: This is the README file for project3 cs 199. It contains compilation instructions
+
+Instructions for compilation: The programs have been added to a makefile named "prog". In order for the compilation to occur type make all, followed by prog. This will compile all of the programs together. To
+ "clean" the files, type "clean all". 
+
+3 things I learned from the lab
+1) How to add objects to a list.
+2) How to access the objects virtual functions inside of the list.
+3) How to use the print virtual function to print each type of the object.
+
+3 things I found difficult
+1) I had some trouble with the attack function and accessing each attack for the different objects of Monsters.
+2) I found some of the structural parts of the program hard.
+3) It was difficult to understand what needed to be in the constructor.
