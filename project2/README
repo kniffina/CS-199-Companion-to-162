@@ -1,0 +1,9 @@
+Author: Adam Kniffin
+Date: 1/28/2016
+Description: This is the README file for project2 cs 199. It contains compilation instructions
+
+Instructions for compilation: The programs have been added to a makefile named "prog". In order for the compilation to occur type make all, followed by prog. This will compile all of the programs together. To
+ "clean" the files, type "clean all". 
+
+
+My recursive function works by making the base case 1. Once n = 1 the function is returned. It uses the function call to decrement n - 1 times. The function calls itself until n = 1, and then it is returned. The function then addes its radius to its radius divided by n-1. This ensures that each time the radius is added to itself, the only thing that is added is 3. This makes sure that the function increments the value correctly.
