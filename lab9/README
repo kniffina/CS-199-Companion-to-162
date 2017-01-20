@@ -1,0 +1,4 @@
+Author: Adam Kniffin
+Date: 3/4/2016
+Description: This is the README file for lab9 cs 199. In order to compile the program type make all. 
+Once the files have been made, you can type 'prog' to run the program. To clean all the files, type 'make clean'.
