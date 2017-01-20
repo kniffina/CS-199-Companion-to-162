@@ -1,0 +1,24 @@
+Author: Adam Kniffin
+Date: 2/25/2016
+Description: This is the README file for lab8 cs 199. It contains compilation instructions
+
+Instructions for compilation: The programs have been added to a makefile named "prog". In order for the compilation to occur type make all, followed by prog. This will compile all of the programs together. To
+ "clean" the files, type "clean all". 
+
+
+Three Things I learned from this lab:
+
+1)Learned how to correctly add elements to static array of a stack class
+
+2)How to keep track of the amount of elements in my stack class by using a member variable and counting each time it is added or removed.
+
+3)I also learned how loop through the stack list and display all of the elements. 
+
+Three things I found difficult
+
+1) At first I had while loops that would go through each variable until there was a NULL value and at the value the user had entered.
+I realized that this worked until the stack was full. In order to make it easier I just used a member variable that kept track of the number of elements.
+
+2) The other thing I found difficult was making sure that values were set to NULL instead of deleted. I am used to dynamic memory and it threw me off a little.
+
+3) The rest of the lab seemed pretty simple. Hopefully, I was able to interpret and accomplish all of the tasks, but overall it seemed like a very straight forward assignment.
