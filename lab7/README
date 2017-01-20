@@ -1,0 +1,7 @@
+Author: Adam Kniffin
+Date: 2/20/2016
+Description: This is the README file for lab7 cs 199. In order to compile the program type g++ lab7.cpp -o anynamehere. Anynamehere stands for whatever you watnt the executable to be called. It can be anything. 
+
+1) When changing the size of arrays and adding random numbers I noticed that if the size was not too big, or the value was near the front of the array, the linear search was often times faster.
+2) It depended on what method was used and where the value was in the array. I think in large chunks of data the binary search is faster, but if the given size of the data is small a linear search was faster.
+3) I think this is the case because if the vlaue that was being searched was at the front of the array, there was not as many iterations that were needed to take place to find the value. 
