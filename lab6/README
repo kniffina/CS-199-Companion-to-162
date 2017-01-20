@@ -1,0 +1,23 @@
+Author: Adam Kniffin
+Date: 2/12/2016
+Description: This is the README file for lab6 cs 199. It contains compilation instructions
+
+Instructions for compilation: The programs have been added to a makefile named "prog". In order for the compilation to occur type make all, followed by prog. This will compile all of the programs together. To
+ "clean" the files, type "clean all". 
+
+
+Three Things I learned from this lab:
+
+1)I learned how to properly add, remove, and display a list of Node structs.
+
+2) I also learned some of the benefits of using a linked list in comparison to arrays. For instance it is better to use a linked list if there is not a fixed number of elements and the list will not be really, really big. (causes it to go slower).
+
+3) A week point in my coding is understanding pointers and how to implement them properly. For this lab I spent a lot of time on the internet and the book trying to dissect code. Overall, this helped me understand the overall concept of struct nodes as a whole a lot more.
+
+Three things I found difficult
+
+1) I had trouble figuring out how to pass in a Node struct by reference. At first I was doing (Node *example) instead of (Node *&example). Once I figured this out (Eric was able to help me figure out why I was getting errors) 
+
+2) I had some trouble with the remove node function at first. This was because it was working properly until I got to the last node. Once the last node tried to be deleted it would cause a segementation fault. I was able to fix this by adding a new 'else if' statement that would be used when the last element was deleted. At that point the element would be deleted and the head node would be set to NULL.
+
+3)As mentioned in the things I learned, I am still working on my skills with pointers. It was difficult to follow the pointers through the list. It was extremely helpful to draw a picture and think about the progress of each pointer and how I could get to the point in the list that I wanted to.
